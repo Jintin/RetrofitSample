@@ -12,6 +12,6 @@ data class Repo(
 
 data class User(
     val id: Int,
-    @SerializedName("avatar_url")
-    val avatarUrl: String
+    @SerializedName("login")
+    val name: String
 )

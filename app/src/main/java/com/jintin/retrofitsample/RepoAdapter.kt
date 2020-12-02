@@ -29,6 +29,7 @@ class RepoHolder(private val binding: AdapterRepoBinding) : RecyclerView.ViewHol
 
     fun bind(repo: Repo) {
         binding.name.text = repo.name
+        binding.author.text = repo.owner.name
         binding.star.text = repo.starCount.toString()
     }
 }
