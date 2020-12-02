@@ -1,3 +1,4 @@
+include ':dynamicproxy'
 include ':app'
 include ':rxJava'
 include ':coroutine'
