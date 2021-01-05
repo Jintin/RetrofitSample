@@ -4,6 +4,7 @@
     <bytecodeTargetLevel target="1.7">
       <module name="RetrofitSample.app" target="1.8" />
       <module name="RetrofitSample.coroutine" target="1.8" />
+      <module name="RetrofitSample.logging" target="1.8" />
       <module name="RetrofitSample.rxJava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
