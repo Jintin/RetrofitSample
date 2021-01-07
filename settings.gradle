@@ -1,5 +1,6 @@
 include ':dynamicproxy'
 include ':app'
+include ':logging'
 include ':rxJava'
 include ':coroutine'
 rootProject.name = "RetrofitSample"
